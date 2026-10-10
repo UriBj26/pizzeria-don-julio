@@ -1,4 +1,4 @@
-/* Reseteo básico y modelo de caja */
+
 * {
   margin: 0;
   padding: 0;
@@ -66,7 +66,7 @@ input, select, textarea {
   font-family: Arial, sans-serif;
 }
 
-/* Área de notas prolija y con tamaño controlado */
+
 textarea {
   resize: vertical;
   min-height: 50px;
@@ -83,7 +83,7 @@ textarea {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #CD212A; /* Rojo */
+  background-color: #CD212A; 
   color: white;
   border: none;
   border-radius: 4px;
