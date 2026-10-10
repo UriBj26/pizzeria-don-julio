@@ -1,0 +1,118 @@
+/* Reseteo básico y modelo de caja */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.contenedor {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  border-top: 5px solid #008C45;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px;
+}
+
+h1 {
+  color: #008C45; 
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+h2 {
+  color: #CD212A; 
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.campo {
+  margin-bottom: 12px;
+}
+
+.filadoble {
+  display: flex;
+  gap: 10px;
+}
+
+.filadoble .campo {
+  flex: 1;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 0.85rem;
+}
+
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Área de notas prolija y con tamaño controlado */
+textarea {
+  resize: vertical;
+  min-height: 50px;
+  max-height: 90px;
+}
+
+.campo-checkbox label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #CD212A; /* Rojo */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #a81920;
+}
+
+.tarjeta-confirmacion {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.tarjeta-confirmacion h3 {
+  color: #008C45;
+  margin-bottom: 10px;
+}
+
+.tarjeta-confirmacion p {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.btn-volver {
+  background-color: #333;
+}
